@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pawan.files_cleaner.MainActivity">
+
+    <item
+        android:id="@+id/privacy"
+        android:title="@string/privacy"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logo"
+        android:title="@string/logo_designer"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback"
+        app:showAsAction="never" />
+
+</menu>
